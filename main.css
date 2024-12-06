@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav {
+    padding: 32px 32px;
+    min-height: 80px;
+    background: #1f1f1f;
+    position: sticky;
+    top: 0px;
+}
+
+nav > a {
+    vertical-align: bottom;
+}
+
+nav img {
+    max-height: 48px;
+    background-color: white;
+}
+
+nav ul,
+nav ul li,
+.spacer {
+    display: inline-block;
+}
+
+.spacer {
+    /* Parent width - Logo width - Menu <ul> width */
+    width: calc(100% - 132px - 276px);
+}
+
+nav ul {
+    margin-bottom: 15px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+#last-item {
+    margin-right: 0px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(229, 145, 0);
+}
+
+nav ul li a:active {
+    color: rgb(92, 229, 0);
+}
+
+#current-page {
+    color: aquamarine;
+}
+section {
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+#mtitle {
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 80%;
+}
+div.mtext {
+    width: 80%;
+    padding: 70px;
+    border: 5px solid rgb(116, 249, 111);
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+   }
+   footer {
+    background-color: black;
+    color: white;
+    margin: 1px;
+    padding: 30px;
+    bottom:0px;
+    display: inline-block;
+    width: 100%;
+position: fixed;
+text-align: center;
+   }
+   a {
+    margin-right: 15px;
+   }
+   .sidebar {
+    width: 250px; 
+    height: 90vh; 
+    background-color: #202020; 
+    color: white; 
+    top: 145px;
+    left: 0;
+    padding-top: 0px;
+    position: absolute;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+.sidebar nav ul li a:link,
+ul li a:visited {
+    background-color: #212121; 
+}
+h1{
+    margin: 0px;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #eec939; 
+}
+h1{
+    margin: 0px;
+}
+.sidebar nav ul li a:active{
+    background-color: #18da2f; 
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #07ca18;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 100;
+    display: sticky;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}
